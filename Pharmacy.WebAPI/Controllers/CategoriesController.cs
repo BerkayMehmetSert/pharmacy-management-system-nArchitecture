@@ -40,7 +40,7 @@ public class CategoriesController : BaseController
         var result = await Mediator!.Send(command);
         return Ok(result);
     }
-    
+
     [HttpDelete]
     public async Task<IActionResult> DeleteCategory([FromBody] DeleteCategoryCommand command)
     {

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "Core.Application\Core.Application.csproj", "{EF24BF8E-0ED4-451B-AED3-3FCF31D35C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcers", "Core.CrossCuttingConcers\Core.CrossCuttingConcers.csproj", "{2791F2D2-0B76-4CAF-8B65-7B880E6FCFB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistence", "Core.Persistence\Core.Persistence.csproj", "{F8F4CDA3-069C-4CF0-BBED-E9AC01403244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Application", "Pharmacy.Application\Pharmacy.Application.csproj", "{788BC1E7-9422-46D0-938A-3024A9DCEC15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Domain", "Pharmacy.Domain\Pharmacy.Domain.csproj", "{5A2C7084-F4CD-4CC2-8B13-F6C8A2604A09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Persistence", "Pharmacy.Persistence\Pharmacy.Persistence.csproj", "{1348D119-1B6C-4FCD-A7AE-6B3DF1007A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.WebAPI", "Pharmacy.WebAPI\Pharmacy.WebAPI.csproj", "{04B12999-24B3-4F0A-8624-C543CB674605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF24BF8E-0ED4-451B-AED3-3FCF31D35C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF24BF8E-0ED4-451B-AED3-3FCF31D35C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF24BF8E-0ED4-451B-AED3-3FCF31D35C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF24BF8E-0ED4-451B-AED3-3FCF31D35C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2791F2D2-0B76-4CAF-8B65-7B880E6FCFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2791F2D2-0B76-4CAF-8B65-7B880E6FCFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2791F2D2-0B76-4CAF-8B65-7B880E6FCFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2791F2D2-0B76-4CAF-8B65-7B880E6FCFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F4CDA3-069C-4CF0-BBED-E9AC01403244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F4CDA3-069C-4CF0-BBED-E9AC01403244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F4CDA3-069C-4CF0-BBED-E9AC01403244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F4CDA3-069C-4CF0-BBED-E9AC01403244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788BC1E7-9422-46D0-938A-3024A9DCEC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788BC1E7-9422-46D0-938A-3024A9DCEC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788BC1E7-9422-46D0-938A-3024A9DCEC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788BC1E7-9422-46D0-938A-3024A9DCEC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2C7084-F4CD-4CC2-8B13-F6C8A2604A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2C7084-F4CD-4CC2-8B13-F6C8A2604A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2C7084-F4CD-4CC2-8B13-F6C8A2604A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2C7084-F4CD-4CC2-8B13-F6C8A2604A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1348D119-1B6C-4FCD-A7AE-6B3DF1007A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1348D119-1B6C-4FCD-A7AE-6B3DF1007A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1348D119-1B6C-4FCD-A7AE-6B3DF1007A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1348D119-1B6C-4FCD-A7AE-6B3DF1007A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B12999-24B3-4F0A-8624-C543CB674605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B12999-24B3-4F0A-8624-C543CB674605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B12999-24B3-4F0A-8624-C543CB674605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B12999-24B3-4F0A-8624-C543CB674605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
